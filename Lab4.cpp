@@ -553,12 +553,9 @@ int main1() {
 	VectorInt VecObj2(10, a);
 	VecObj2.Output();
 
-
 	VecObj.Input();
 	cout << endl;
 	VecObj.Output();
-
-
 
 	cout << "\n1 \n";
 	VecObj1 = VecObj.A(VecObj2);
@@ -676,9 +673,6 @@ int main1() {
 	cout << "\n26 \n";
 	VecObj1 = VecObj.Ei(VecObj2);
 	cout << "\n";
-
-
-
 
 	return 0;
 }
